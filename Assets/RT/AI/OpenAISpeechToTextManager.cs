@@ -69,6 +69,7 @@ public class OpenAISpeechToTextManager : MonoBehaviour
 
         WWWForm formData = new WWWForm();
         formData.AddField("model", model);
+        formData.AddField("language", "de");
 
         if (prompt != "")
         {

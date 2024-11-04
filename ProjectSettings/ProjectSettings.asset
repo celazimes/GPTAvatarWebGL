@@ -817,23 +817,23 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: FG_MPRO
-    EmbeddedLinux: FG_MPRO
+    Android: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    EmbeddedLinux: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
     GameCoreScarlett: FG_MPRO
-    GameCoreXboxOne: FG_MPRO
+    GameCoreXboxOne: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
     LinuxHeadlessSimulation: FG_MPRO
-    Nintendo Switch: FG_MPRO
-    PS4: FG_MPRO
-    PS5: FG_MPRO
-    QNX: FG_MPRO
-    Stadia: FG_MPRO
-    Standalone: CROSS_PLATFORM_INPUT;CMS_SALSA;FG_MPRO
-    VisionOS: FG_MPRO
-    WebGL: CMS_SALSA;FG_MPRO
+    Nintendo Switch: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    PS4: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    PS5: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    QNX: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    Stadia: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: CROSS_PLATFORM_INPUT;CMS_SALSA;FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    VisionOS: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: CMS_SALSA;FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
     Windows Store Apps: FG_MPRO
-    XboxOne: FG_MPRO
+    XboxOne: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT;CMS_SALSA;FG_MPRO
-    tvOS: FG_MPRO
+    tvOS: FG_MPRO;UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

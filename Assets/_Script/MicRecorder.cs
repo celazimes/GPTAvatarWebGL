@@ -164,6 +164,17 @@ public class MicRecorder : MonoBehaviour
         AIManager aiScript = GetComponent<AIManager>();
         aiScript.ProcessMicAudioByFileName(outputFileName);
     }
+        public void StopRecordingDONTProcess()
+    {
+
+        if (!isRecording)
+            return;
+
+        Debug.Log("Recording stopped");
+        // Microphone.End(null);
+        Microphone.End(selectedDevice);
+        isRecording = false;
+    }
 
    public bool IsRecording() { return isRecording; }
     private void Update()

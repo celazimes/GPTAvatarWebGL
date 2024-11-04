@@ -1,0 +1,2696 @@
+7/22/2024 2:21:18 PM: Starting assistant interaction...
+7/22/2024 2:21:18 PM: Creating thread...
+7/22/2024 2:21:19 PM: Created new thread with ID: thread_cHX38suM8lxvq81pu4ByEjUG
+7/22/2024 2:21:19 PM: AddMessageToThread callback received.
+7/22/2024 2:21:19 PM: Message added to thread successfully.
+7/22/2024 2:21:20 PM: CreateRun callback received.
+7/22/2024 2:21:20 PM: Run created successfully.
+7/22/2024 2:21:21 PM: Get request successful: {
+  "id": "run_4ySCAs8LqAfTQ7Gxa7b4j7so",
+  "object": "thread.run",
+  "created_at": 1721647279,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "in_progress",
+  "started_at": 1721647280,
+  "expires_at": 1721647879,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:21 PM: Polling run status...
+7/22/2024 2:21:21 PM: Run status: in_progress
+7/22/2024 2:21:22 PM: Get request successful: {
+  "id": "run_4ySCAs8LqAfTQ7Gxa7b4j7so",
+  "object": "thread.run",
+  "created_at": 1721647279,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "in_progress",
+  "started_at": 1721647280,
+  "expires_at": 1721647879,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:22 PM: Polling run status...
+7/22/2024 2:21:22 PM: Run status: in_progress
+7/22/2024 2:21:23 PM: Get request successful: {
+  "id": "run_4ySCAs8LqAfTQ7Gxa7b4j7so",
+  "object": "thread.run",
+  "created_at": 1721647279,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "completed",
+  "started_at": 1721647280,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721647282,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10933,
+    "completion_tokens": 51,
+    "total_tokens": 10984
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:23 PM: Polling run status...
+7/22/2024 2:21:23 PM: Run status: completed
+7/22/2024 2:21:23 PM: Run completed. Fetching messages...
+7/22/2024 2:21:23 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_wEMFPbj77MWc6FJltVxrNNRp",
+      "object": "thread.message",
+      "created_at": 1721647282,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+      "run_id": "run_4ySCAs8LqAfTQ7Gxa7b4j7so",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The document appears to be the standard for British Shorthair cats. Do you need information on their physical attributes, color patterns, or something specific about their standards?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_3hWsFoPp4s7SOKihkFrrTQPs",
+      "object": "thread.message",
+      "created_at": 1721647279,
+      "assistant_id": null,
+      "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Rada mi która je pretiščna bila.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_wEMFPbj77MWc6FJltVxrNNRp",
+  "last_id": "msg_3hWsFoPp4s7SOKihkFrrTQPs",
+  "has_more": false
+}
+7/22/2024 2:21:23 PM: GetMessagesFromThread callback received.
+7/22/2024 2:21:23 PM: Received reply: The document appears to be the standard for British Shorthair cats. Do you need information on their physical attributes, color patterns, or something specific about their standards?
+7/22/2024 2:21:24 PM: Get request successful: {
+  "id": "run_4ySCAs8LqAfTQ7Gxa7b4j7so",
+  "object": "thread.run",
+  "created_at": 1721647279,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "completed",
+  "started_at": 1721647280,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721647282,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10933,
+    "completion_tokens": 51,
+    "total_tokens": 10984
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:24 PM: Polling run status...
+7/22/2024 2:21:24 PM: Run status: completed
+7/22/2024 2:21:24 PM: Run completed. Fetching messages...
+7/22/2024 2:21:37 PM: Starting assistant interaction...
+7/22/2024 2:21:37 PM: AddMessageToThread callback received.
+7/22/2024 2:21:37 PM: Message added to thread successfully.
+7/22/2024 2:21:38 PM: CreateRun callback received.
+7/22/2024 2:21:38 PM: Run created successfully.
+7/22/2024 2:21:39 PM: Get request successful: {
+  "id": "run_odKI4FfThx8zxkNhzsrbs0lQ",
+  "object": "thread.run",
+  "created_at": 1721647297,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "in_progress",
+  "started_at": 1721647298,
+  "expires_at": 1721647897,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:39 PM: Polling run status...
+7/22/2024 2:21:39 PM: Run status: in_progress
+7/22/2024 2:21:40 PM: Get request successful: {
+  "id": "run_odKI4FfThx8zxkNhzsrbs0lQ",
+  "object": "thread.run",
+  "created_at": 1721647297,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "in_progress",
+  "started_at": 1721647298,
+  "expires_at": 1721647897,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:40 PM: Polling run status...
+7/22/2024 2:21:40 PM: Run status: in_progress
+7/22/2024 2:21:41 PM: Get request successful: {
+  "id": "run_odKI4FfThx8zxkNhzsrbs0lQ",
+  "object": "thread.run",
+  "created_at": 1721647297,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "in_progress",
+  "started_at": 1721647298,
+  "expires_at": 1721647897,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:41 PM: Polling run status...
+7/22/2024 2:21:41 PM: Run status: in_progress
+7/22/2024 2:21:42 PM: Get request successful: {
+  "id": "run_odKI4FfThx8zxkNhzsrbs0lQ",
+  "object": "thread.run",
+  "created_at": 1721647297,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "completed",
+  "started_at": 1721647298,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721647301,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 11094,
+    "completion_tokens": 101,
+    "total_tokens": 11195
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:42 PM: Polling run status...
+7/22/2024 2:21:42 PM: Run status: completed
+7/22/2024 2:21:42 PM: Run completed. Fetching messages...
+7/22/2024 2:21:43 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_8yFWnxS0WxFFQRr6ShzClxSc",
+      "object": "thread.message",
+      "created_at": 1721647300,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+      "run_id": "run_odKI4FfThx8zxkNhzsrbs0lQ",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "British Shorthair cats come in various color patterns. Common patterns include Tabby and White, Van Tabby and White, Tortoiseshell, Calico, and Dilute Calico. Specific tabby patterns such as Mackerel, Classic, Spotted, Silver Tabby, and Patched Tabby are also recognized【8:0†source】【8:1†source】【8:2†source】.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【8:0†source】",
+                "start_index": 270,
+                "end_index": 282,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【8:1†source】",
+                "start_index": 282,
+                "end_index": 294,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【8:2†source】",
+                "start_index": 294,
+                "end_index": 306,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_aWspdH473LtkZ8BByIyF8t2A",
+      "object": "thread.message",
+      "created_at": 1721647297,
+      "assistant_id": null,
+      "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Yes, tell me about color patterns",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_wEMFPbj77MWc6FJltVxrNNRp",
+      "object": "thread.message",
+      "created_at": 1721647282,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+      "run_id": "run_4ySCAs8LqAfTQ7Gxa7b4j7so",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The document appears to be the standard for British Shorthair cats. Do you need information on their physical attributes, color patterns, or something specific about their standards?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_3hWsFoPp4s7SOKihkFrrTQPs",
+      "object": "thread.message",
+      "created_at": 1721647279,
+      "assistant_id": null,
+      "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Rada mi która je pretiščna bila.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_8yFWnxS0WxFFQRr6ShzClxSc",
+  "last_id": "msg_3hWsFoPp4s7SOKihkFrrTQPs",
+  "has_more": false
+}
+7/22/2024 2:21:43 PM: GetMessagesFromThread callback received.
+7/22/2024 2:21:43 PM: Received reply: British Shorthair cats come in various color patterns. Common patterns include Tabby and White, Van Tabby and White, Tortoiseshell, Calico, and Dilute Calico. Specific tabby patterns such as Mackerel, Classic, Spotted, Silver Tabby, and Patched Tabby are also recognized【8:0†source】【8:1†source】【8:2†source】.
+7/22/2024 2:21:43 PM: Get request successful: {
+  "id": "run_odKI4FfThx8zxkNhzsrbs0lQ",
+  "object": "thread.run",
+  "created_at": 1721647297,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_cHX38suM8lxvq81pu4ByEjUG",
+  "status": "completed",
+  "started_at": 1721647298,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721647301,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 11094,
+    "completion_tokens": 101,
+    "total_tokens": 11195
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:21:43 PM: Polling run status...
+7/22/2024 2:21:43 PM: Run status: completed
+7/22/2024 2:21:43 PM: Run completed. Fetching messages...
+7/22/2024 2:25:44 PM: Starting assistant interaction...
+7/22/2024 2:25:44 PM: Creating thread...
+7/22/2024 2:25:45 PM: Created new thread with ID: thread_gMpYxwiDNVdWzzPhU5tCeQdY
+7/22/2024 2:25:45 PM: AddMessageToThread callback received.
+7/22/2024 2:25:45 PM: Message added to thread successfully.
+7/22/2024 2:25:45 PM: CreateRun callback received.
+7/22/2024 2:25:45 PM: Run created successfully.
+7/22/2024 2:25:47 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:47 PM: Polling run status...
+7/22/2024 2:25:47 PM: Run status: in_progress
+7/22/2024 2:25:48 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:48 PM: Polling run status...
+7/22/2024 2:25:48 PM: Run status: in_progress
+7/22/2024 2:25:49 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:49 PM: Polling run status...
+7/22/2024 2:25:49 PM: Run status: in_progress
+7/22/2024 2:25:50 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:50 PM: Polling run status...
+7/22/2024 2:25:50 PM: Run status: in_progress
+7/22/2024 2:25:51 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:51 PM: Polling run status...
+7/22/2024 2:25:51 PM: Run status: in_progress
+7/22/2024 2:25:52 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:52 PM: Polling run status...
+7/22/2024 2:25:52 PM: Run status: in_progress
+7/22/2024 2:25:53 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "in_progress",
+  "started_at": 1721647545,
+  "expires_at": 1721648145,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:53 PM: Polling run status...
+7/22/2024 2:25:53 PM: Run status: in_progress
+7/22/2024 2:25:54 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "completed",
+  "started_at": 1721647545,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721647553,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10924,
+    "completion_tokens": 149,
+    "total_tokens": 11073
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:54 PM: Polling run status...
+7/22/2024 2:25:54 PM: Run status: completed
+7/22/2024 2:25:54 PM: Run completed. Fetching messages...
+7/22/2024 2:25:54 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_u18vYrTgqtoznzSPNOBkkvVn",
+      "object": "thread.message",
+      "created_at": 1721647548,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+      "run_id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The British Shorthair is known for its compact, well-balanced and powerful build, featuring a broad chest and short to medium strong legs. They have round faces, large, round eyes, and dense, short coats that can come in a variety of colors and patterns【4:0†source】【4:1†source】【4:2†source】.\n\nMales typically have larger jowls and reach full maturity in 3-5 years, while females are less massive in all respects【4:0†source】. Their personality is generally calm, easygoing, and affectionate, making them excellent companions【4:0†source】.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 253,
+                "end_index": 265,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:1†source】",
+                "start_index": 265,
+                "end_index": 277,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:2†source】",
+                "start_index": 277,
+                "end_index": 289,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 410,
+                "end_index": 422,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 522,
+                "end_index": 534,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Di9DoZYspyXSfBugvp5dheAf",
+      "object": "thread.message",
+      "created_at": 1721647545,
+      "assistant_id": null,
+      "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Tell me about British Shorthair",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_u18vYrTgqtoznzSPNOBkkvVn",
+  "last_id": "msg_Di9DoZYspyXSfBugvp5dheAf",
+  "has_more": false
+}
+7/22/2024 2:25:54 PM: GetMessagesFromThread callback received.
+7/22/2024 2:25:54 PM: Received reply: The British Shorthair is known for its compact, well-balanced and powerful build, featuring a broad chest and short to medium strong legs. They have round faces, large, round eyes, and dense, short coats that can come in a variety of colors and patterns【4:0†source】【4:1†source】【4:2†source】.
+
+Males typically have larger jowls and reach full maturity in 3-5 years, while females are less massive in all respects【4:0†source】. Their personality is generally calm, easygoing, and affectionate, making them excellent companions【4:0†source】.
+7/22/2024 2:25:55 PM: Get request successful: {
+  "id": "run_iz6KZJ8zksSWoBFMFnmQEZOC",
+  "object": "thread.run",
+  "created_at": 1721647545,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_gMpYxwiDNVdWzzPhU5tCeQdY",
+  "status": "completed",
+  "started_at": 1721647545,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721647553,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10924,
+    "completion_tokens": 149,
+    "total_tokens": 11073
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:25:55 PM: Polling run status...
+7/22/2024 2:25:55 PM: Run status: completed
+7/22/2024 2:25:55 PM: Run completed. Fetching messages...
+7/22/2024 2:52:23 PM: Starting assistant interaction...
+7/22/2024 2:52:23 PM: Creating thread...
+7/22/2024 2:52:24 PM: Created new thread with ID: thread_FdfukIE0IXKxWE04yY2FB53G
+7/22/2024 2:52:24 PM: AddMessageToThread callback received.
+7/22/2024 2:52:24 PM: Message added to thread successfully.
+7/22/2024 2:52:25 PM: CreateRun callback received.
+7/22/2024 2:52:25 PM: Run created successfully.
+7/22/2024 2:52:26 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "in_progress",
+  "started_at": 1721649145,
+  "expires_at": 1721649745,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:26 PM: Polling run status...
+7/22/2024 2:52:26 PM: Run status: in_progress
+7/22/2024 2:52:28 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "in_progress",
+  "started_at": 1721649145,
+  "expires_at": 1721649745,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:28 PM: Polling run status...
+7/22/2024 2:52:28 PM: Run status: in_progress
+7/22/2024 2:52:28 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "in_progress",
+  "started_at": 1721649145,
+  "expires_at": 1721649745,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:28 PM: Polling run status...
+7/22/2024 2:52:28 PM: Run status: in_progress
+7/22/2024 2:52:29 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "in_progress",
+  "started_at": 1721649145,
+  "expires_at": 1721649745,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:29 PM: Polling run status...
+7/22/2024 2:52:29 PM: Run status: in_progress
+7/22/2024 2:52:30 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "in_progress",
+  "started_at": 1721649145,
+  "expires_at": 1721649745,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:30 PM: Polling run status...
+7/22/2024 2:52:30 PM: Run status: in_progress
+7/22/2024 2:52:31 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "completed",
+  "started_at": 1721649145,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721649150,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10937,
+    "completion_tokens": 126,
+    "total_tokens": 11063
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:31 PM: Polling run status...
+7/22/2024 2:52:31 PM: Run status: completed
+7/22/2024 2:52:31 PM: Run completed. Fetching messages...
+7/22/2024 2:52:31 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_v5yHrT5kRewQGmZiuETj1pes",
+      "object": "thread.message",
+      "created_at": 1721649149,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+      "run_id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Pozdravljeni! Brezerne krošiče se običajno posameznikom ne ocenjuje. Vendarle, če predvidevam, da sprašujete o normah za določeno pasmo mačke, kot je britanska kratkodlaka, standard opredeljuje natančna merila za ocenjevanje las in barve【4:0†source】【4:1†source】. Če se motim, me prosim popravite in posredujte dodatne informacije.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 237,
+                "end_index": 249,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:1†source】",
+                "start_index": 249,
+                "end_index": 261,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_IVasL4RBL6682wT6fMfqlQMh",
+      "object": "thread.message",
+      "created_at": 1721649144,
+      "assistant_id": null,
+      "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Kaj odebrate svoje brezerne krošiče?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_v5yHrT5kRewQGmZiuETj1pes",
+  "last_id": "msg_IVasL4RBL6682wT6fMfqlQMh",
+  "has_more": false
+}
+7/22/2024 2:52:31 PM: GetMessagesFromThread callback received.
+7/22/2024 2:52:31 PM: Received reply: Pozdravljeni! Brezerne krošiče se običajno posameznikom ne ocenjuje. Vendarle, če predvidevam, da sprašujete o normah za določeno pasmo mačke, kot je britanska kratkodlaka, standard opredeljuje natančna merila za ocenjevanje las in barve【4:0†source】【4:1†source】. Če se motim, me prosim popravite in posredujte dodatne informacije.
+7/22/2024 2:52:32 PM: Get request successful: {
+  "id": "run_D66Jxf8v0PtuQ6tA53GPb3Gn",
+  "object": "thread.run",
+  "created_at": 1721649145,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FdfukIE0IXKxWE04yY2FB53G",
+  "status": "completed",
+  "started_at": 1721649145,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721649150,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10937,
+    "completion_tokens": 126,
+    "total_tokens": 11063
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 2:52:32 PM: Polling run status...
+7/22/2024 2:52:32 PM: Run status: completed
+7/22/2024 2:52:32 PM: Run completed. Fetching messages...
+7/22/2024 3:19:43 PM: Starting assistant interaction...
+7/22/2024 3:19:43 PM: Creating thread...
+7/22/2024 3:19:43 PM: Created new thread with ID: thread_XwOlBOn6bWkGalihG599vSzy
+7/22/2024 3:19:44 PM: AddMessageToThread callback received.
+7/22/2024 3:19:44 PM: Message added to thread successfully.
+7/22/2024 3:19:44 PM: CreateRun callback received.
+7/22/2024 3:19:44 PM: Run created successfully.
+7/22/2024 3:19:45 PM: Get request successful: {
+  "id": "run_PdjRbyUAnvZeO3olCyJ3jRXw",
+  "object": "thread.run",
+  "created_at": 1721650784,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+  "status": "in_progress",
+  "started_at": 1721650784,
+  "expires_at": 1721651384,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:19:45 PM: Polling run status...
+7/22/2024 3:19:45 PM: Run status: in_progress
+7/22/2024 3:19:46 PM: Get request successful: {
+  "id": "run_PdjRbyUAnvZeO3olCyJ3jRXw",
+  "object": "thread.run",
+  "created_at": 1721650784,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+  "status": "in_progress",
+  "started_at": 1721650784,
+  "expires_at": 1721651384,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:19:46 PM: Polling run status...
+7/22/2024 3:19:46 PM: Run status: in_progress
+7/22/2024 3:19:47 PM: Get request successful: {
+  "id": "run_PdjRbyUAnvZeO3olCyJ3jRXw",
+  "object": "thread.run",
+  "created_at": 1721650784,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+  "status": "in_progress",
+  "started_at": 1721650784,
+  "expires_at": 1721651384,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:19:47 PM: Polling run status...
+7/22/2024 3:19:47 PM: Run status: in_progress
+7/22/2024 3:19:48 PM: Get request successful: {
+  "id": "run_PdjRbyUAnvZeO3olCyJ3jRXw",
+  "object": "thread.run",
+  "created_at": 1721650784,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+  "status": "completed",
+  "started_at": 1721650784,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721650788,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10926,
+    "completion_tokens": 102,
+    "total_tokens": 11028
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:19:48 PM: Polling run status...
+7/22/2024 3:19:48 PM: Run status: completed
+7/22/2024 3:19:48 PM: Run completed. Fetching messages...
+7/22/2024 3:19:49 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_eJqG3n9bYT0sc7MplYSJECAN",
+      "object": "thread.message",
+      "created_at": 1721650787,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+      "run_id": "run_PdjRbyUAnvZeO3olCyJ3jRXw",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The British Shorthair is a compact, well-balanced, and powerful cat with a round head, large round eyes, and a dense, crisp coat. Males are more massive, particularly with larger jowls, and they take 3-5 years to reach full maturity. The breed's temperament is generally calm and affectionate, making them excellent companions【4:0†source】【4:1†source】.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 326,
+                "end_index": 338,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:1†source】",
+                "start_index": 338,
+                "end_index": 350,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_lSxAnWWAHyQGz2eA6Z0pGR1n",
+      "object": "thread.message",
+      "created_at": 1721650783,
+      "assistant_id": null,
+      "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Tell me about British shorthair.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_eJqG3n9bYT0sc7MplYSJECAN",
+  "last_id": "msg_lSxAnWWAHyQGz2eA6Z0pGR1n",
+  "has_more": false
+}
+7/22/2024 3:19:49 PM: GetMessagesFromThread callback received.
+7/22/2024 3:19:49 PM: Received reply: The British Shorthair is a compact, well-balanced, and powerful cat with a round head, large round eyes, and a dense, crisp coat. Males are more massive, particularly with larger jowls, and they take 3-5 years to reach full maturity. The breed's temperament is generally calm and affectionate, making them excellent companions【4:0†source】【4:1†source】.
+7/22/2024 3:19:49 PM: Get request successful: {
+  "id": "run_PdjRbyUAnvZeO3olCyJ3jRXw",
+  "object": "thread.run",
+  "created_at": 1721650784,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_XwOlBOn6bWkGalihG599vSzy",
+  "status": "completed",
+  "started_at": 1721650784,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721650788,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10926,
+    "completion_tokens": 102,
+    "total_tokens": 11028
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:19:49 PM: Polling run status...
+7/22/2024 3:19:49 PM: Run status: completed
+7/22/2024 3:19:49 PM: Run completed. Fetching messages...
+7/22/2024 3:34:57 PM: Starting assistant interaction...
+7/22/2024 3:34:57 PM: Creating thread...
+7/22/2024 3:34:58 PM: Created new thread with ID: thread_NMl0lFJGsJUbYYv02SARg3S9
+7/22/2024 3:34:59 PM: AddMessageToThread callback received.
+7/22/2024 3:34:59 PM: Message added to thread successfully.
+7/22/2024 3:35:00 PM: CreateRun callback received.
+7/22/2024 3:35:00 PM: Run created successfully.
+7/22/2024 3:35:01 PM: Get request successful: {
+  "id": "run_WOULcxM3Z6EGZ1yj4J0EJ5FS",
+  "object": "thread.run",
+  "created_at": 1721651699,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_NMl0lFJGsJUbYYv02SARg3S9",
+  "status": "in_progress",
+  "started_at": 1721651699,
+  "expires_at": 1721652299,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:35:01 PM: Polling run status...
+7/22/2024 3:35:01 PM: Run status: in_progress
+7/22/2024 3:35:05 PM: Get request successful: {
+  "id": "run_WOULcxM3Z6EGZ1yj4J0EJ5FS",
+  "object": "thread.run",
+  "created_at": 1721651699,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_NMl0lFJGsJUbYYv02SARg3S9",
+  "status": "in_progress",
+  "started_at": 1721651699,
+  "expires_at": 1721652299,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:35:05 PM: Polling run status...
+7/22/2024 3:35:05 PM: Run status: in_progress
+7/22/2024 3:35:06 PM: Get request successful: {
+  "id": "run_WOULcxM3Z6EGZ1yj4J0EJ5FS",
+  "object": "thread.run",
+  "created_at": 1721651699,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_NMl0lFJGsJUbYYv02SARg3S9",
+  "status": "completed",
+  "started_at": 1721651699,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721651703,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10926,
+    "completion_tokens": 102,
+    "total_tokens": 11028
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:35:06 PM: Polling run status...
+7/22/2024 3:35:06 PM: Run status: completed
+7/22/2024 3:35:06 PM: Run completed. Fetching messages...
+7/22/2024 3:35:07 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_hwLxmtdpH5mplRrFlaKFLPUH",
+      "object": "thread.message",
+      "created_at": 1721651702,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_NMl0lFJGsJUbYYv02SARg3S9",
+      "run_id": "run_WOULcxM3Z6EGZ1yj4J0EJ5FS",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The British Shorthair is a compact, well-balanced, and powerful cat breed, recognized for its dense coat and broad chest. This breed's head is round with large, round eyes and a firm chin, while the legs are strong and well-boned【4:0†source】. British Shorthairs come in various colors, including white, black, blue, and cream【4:4†source】.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 229,
+                "end_index": 241,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              },
+              {
+                "type": "file_citation",
+                "text": "【4:4†source】",
+                "start_index": 325,
+                "end_index": 337,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_BWJqHPiAtF0jzHT1E2zYliKe",
+      "object": "thread.message",
+      "created_at": 1721651698,
+      "assistant_id": null,
+      "thread_id": "thread_NMl0lFJGsJUbYYv02SARg3S9",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Tell me about British shorthair.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_hwLxmtdpH5mplRrFlaKFLPUH",
+  "last_id": "msg_BWJqHPiAtF0jzHT1E2zYliKe",
+  "has_more": false
+}
+7/22/2024 3:35:07 PM: GetMessagesFromThread callback received.
+7/22/2024 3:35:07 PM: Received reply: The British Shorthair is a compact, well-balanced, and powerful cat breed, recognized for its dense coat and broad chest. This breed's head is round with large, round eyes and a firm chin, while the legs are strong and well-boned【4:0†source】. British Shorthairs come in various colors, including white, black, blue, and cream【4:4†source】.
+7/22/2024 3:35:08 PM: Get request successful: {
+  "id": "run_WOULcxM3Z6EGZ1yj4J0EJ5FS",
+  "object": "thread.run",
+  "created_at": 1721651699,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_NMl0lFJGsJUbYYv02SARg3S9",
+  "status": "completed",
+  "started_at": 1721651699,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721651703,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10926,
+    "completion_tokens": 102,
+    "total_tokens": 11028
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:35:08 PM: Polling run status...
+7/22/2024 3:35:08 PM: Run status: completed
+7/22/2024 3:35:08 PM: Run completed. Fetching messages...
+7/22/2024 3:37:01 PM: Starting assistant interaction...
+7/22/2024 3:37:01 PM: Creating thread...
+7/22/2024 3:37:01 PM: Created new thread with ID: thread_xiHJ2Gfsu8oWKK42elka6tMe
+7/22/2024 3:37:02 PM: AddMessageToThread callback received.
+7/22/2024 3:37:02 PM: Message added to thread successfully.
+7/22/2024 3:37:03 PM: CreateRun callback received.
+7/22/2024 3:37:03 PM: Run created successfully.
+7/22/2024 3:37:04 PM: Get request successful: {
+  "id": "run_hRIGn16Nn8CVqzvmxoFcIfvT",
+  "object": "thread.run",
+  "created_at": 1721651822,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+  "status": "completed",
+  "started_at": 1721651822,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721651823,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 25,
+    "total_tokens": 817
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:37:04 PM: Polling run status...
+7/22/2024 3:37:04 PM: Run status: completed
+7/22/2024 3:37:04 PM: Run completed. Fetching messages...
+7/22/2024 3:37:05 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_BUezv3aHqaSpqBaio18DcU4F",
+      "object": "thread.message",
+      "created_at": 1721651823,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": "run_hRIGn16Nn8CVqzvmxoFcIfvT",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Hello! I'm here to help you with all your cat-related questions and discussions. How can I assist you today?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_DBODcELYzvoHp1d89FrwgiT7",
+      "object": "thread.message",
+      "created_at": 1721651821,
+      "assistant_id": null,
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "You",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_BUezv3aHqaSpqBaio18DcU4F",
+  "last_id": "msg_DBODcELYzvoHp1d89FrwgiT7",
+  "has_more": false
+}
+7/22/2024 3:37:05 PM: GetMessagesFromThread callback received.
+7/22/2024 3:37:05 PM: Received reply: Hello! I'm here to help you with all your cat-related questions and discussions. How can I assist you today?
+7/22/2024 3:37:05 PM: Starting assistant interaction...
+7/22/2024 3:37:06 PM: Get request successful: {
+  "id": "run_hRIGn16Nn8CVqzvmxoFcIfvT",
+  "object": "thread.run",
+  "created_at": 1721651822,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+  "status": "completed",
+  "started_at": 1721651822,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721651823,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 25,
+    "total_tokens": 817
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:37:06 PM: Polling run status...
+7/22/2024 3:37:06 PM: Run status: completed
+7/22/2024 3:37:06 PM: Run completed. Fetching messages...
+7/22/2024 3:37:06 PM: AddMessageToThread callback received.
+7/22/2024 3:37:06 PM: Message added to thread successfully.
+7/22/2024 3:37:06 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_KbIQYvqc4Ui3EHOLM2HBOMB9",
+      "object": "thread.message",
+      "created_at": 1721651825,
+      "assistant_id": null,
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "tell me about British shorthair",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_BUezv3aHqaSpqBaio18DcU4F",
+      "object": "thread.message",
+      "created_at": 1721651823,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": "run_hRIGn16Nn8CVqzvmxoFcIfvT",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Hello! I'm here to help you with all your cat-related questions and discussions. How can I assist you today?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_DBODcELYzvoHp1d89FrwgiT7",
+      "object": "thread.message",
+      "created_at": 1721651821,
+      "assistant_id": null,
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "You",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_KbIQYvqc4Ui3EHOLM2HBOMB9",
+  "last_id": "msg_DBODcELYzvoHp1d89FrwgiT7",
+  "has_more": false
+}
+7/22/2024 3:37:06 PM: GetMessagesFromThread callback received.
+7/22/2024 3:37:06 PM: Received reply: Hello! I'm here to help you with all your cat-related questions and discussions. How can I assist you today?
+7/22/2024 3:37:06 PM: CreateRun callback received.
+7/22/2024 3:37:06 PM: Run created successfully.
+7/22/2024 3:37:08 PM: Get request successful: {
+  "id": "run_3hmNV9nN5bo6W4VLrxVGYZhc",
+  "object": "thread.run",
+  "created_at": 1721651826,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+  "status": "in_progress",
+  "started_at": 1721651826,
+  "expires_at": 1721652426,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:37:08 PM: Polling run status...
+7/22/2024 3:37:08 PM: Run status: in_progress
+7/22/2024 3:37:08 PM: Get request successful: {
+  "id": "run_3hmNV9nN5bo6W4VLrxVGYZhc",
+  "object": "thread.run",
+  "created_at": 1721651826,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+  "status": "in_progress",
+  "started_at": 1721651826,
+  "expires_at": 1721652426,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:37:08 PM: Polling run status...
+7/22/2024 3:37:08 PM: Run status: in_progress
+7/22/2024 3:37:09 PM: Get request successful: {
+  "id": "run_3hmNV9nN5bo6W4VLrxVGYZhc",
+  "object": "thread.run",
+  "created_at": 1721651826,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+  "status": "completed",
+  "started_at": 1721651826,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721651829,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10988,
+    "completion_tokens": 89,
+    "total_tokens": 11077
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:37:09 PM: Polling run status...
+7/22/2024 3:37:09 PM: Run status: completed
+7/22/2024 3:37:09 PM: Run completed. Fetching messages...
+7/22/2024 3:37:10 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_1EN1OUyqR2EXMVHFGV0KZ3vP",
+      "object": "thread.message",
+      "created_at": 1721651828,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": "run_3hmNV9nN5bo6W4VLrxVGYZhc",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The British Shorthair is a medium to large, well-knit, and powerful cat with a compact body and a broad chest. They possess round faces with large, round eyes, and their ears are medium in size and set far apart. The coat is short, dense, and has a crisp texture, not double-coated【6:0†source】.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【6:0†source】",
+                "start_index": 281,
+                "end_index": 293,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_KbIQYvqc4Ui3EHOLM2HBOMB9",
+      "object": "thread.message",
+      "created_at": 1721651825,
+      "assistant_id": null,
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "tell me about British shorthair",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_BUezv3aHqaSpqBaio18DcU4F",
+      "object": "thread.message",
+      "created_at": 1721651823,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": "run_hRIGn16Nn8CVqzvmxoFcIfvT",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Hello! I'm here to help you with all your cat-related questions and discussions. How can I assist you today?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_DBODcELYzvoHp1d89FrwgiT7",
+      "object": "thread.message",
+      "created_at": 1721651821,
+      "assistant_id": null,
+      "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "You",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_1EN1OUyqR2EXMVHFGV0KZ3vP",
+  "last_id": "msg_DBODcELYzvoHp1d89FrwgiT7",
+  "has_more": false
+}
+7/22/2024 3:37:10 PM: GetMessagesFromThread callback received.
+7/22/2024 3:37:10 PM: Received reply: The British Shorthair is a medium to large, well-knit, and powerful cat with a compact body and a broad chest. They possess round faces with large, round eyes, and their ears are medium in size and set far apart. The coat is short, dense, and has a crisp texture, not double-coated【6:0†source】.
+7/22/2024 3:37:10 PM: Get request successful: {
+  "id": "run_3hmNV9nN5bo6W4VLrxVGYZhc",
+  "object": "thread.run",
+  "created_at": 1721651826,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_xiHJ2Gfsu8oWKK42elka6tMe",
+  "status": "completed",
+  "started_at": 1721651826,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721651829,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10988,
+    "completion_tokens": 89,
+    "total_tokens": 11077
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:37:10 PM: Polling run status...
+7/22/2024 3:37:10 PM: Run status: completed
+7/22/2024 3:37:10 PM: Run completed. Fetching messages...
+7/22/2024 3:42:41 PM: Starting assistant interaction...
+7/22/2024 3:42:41 PM: Creating thread...
+7/22/2024 3:42:41 PM: Created new thread with ID: thread_FOLyAeKrloUuMqOdVyawTG9X
+7/22/2024 3:42:42 PM: AddMessageToThread callback received.
+7/22/2024 3:42:42 PM: Message added to thread successfully.
+7/22/2024 3:42:42 PM: CreateRun callback received.
+7/22/2024 3:42:42 PM: Run created successfully.
+7/22/2024 3:42:43 PM: Get request successful: {
+  "id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+  "object": "thread.run",
+  "created_at": 1721652162,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+  "status": "in_progress",
+  "started_at": 1721652162,
+  "expires_at": 1721652762,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:42:43 PM: Polling run status...
+7/22/2024 3:42:43 PM: Run status: in_progress
+7/22/2024 3:42:44 PM: Get request successful: {
+  "id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+  "object": "thread.run",
+  "created_at": 1721652162,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+  "status": "in_progress",
+  "started_at": 1721652162,
+  "expires_at": 1721652762,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:42:44 PM: Polling run status...
+7/22/2024 3:42:44 PM: Run status: in_progress
+7/22/2024 3:42:45 PM: Get request successful: {
+  "id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+  "object": "thread.run",
+  "created_at": 1721652162,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+  "status": "in_progress",
+  "started_at": 1721652162,
+  "expires_at": 1721652762,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:42:45 PM: Polling run status...
+7/22/2024 3:42:45 PM: Run status: in_progress
+7/22/2024 3:42:46 PM: Get request successful: {
+  "id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+  "object": "thread.run",
+  "created_at": 1721652162,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+  "status": "in_progress",
+  "started_at": 1721652162,
+  "expires_at": 1721652762,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:42:46 PM: Polling run status...
+7/22/2024 3:42:46 PM: Run status: in_progress
+7/22/2024 3:42:47 PM: Get request successful: {
+  "id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+  "object": "thread.run",
+  "created_at": 1721652162,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+  "status": "completed",
+  "started_at": 1721652162,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721652166,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10926,
+    "completion_tokens": 97,
+    "total_tokens": 11023
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:42:47 PM: Polling run status...
+7/22/2024 3:42:47 PM: Run status: completed
+7/22/2024 3:42:47 PM: Run completed. Fetching messages...
+7/22/2024 3:42:48 PM: Get request successful: {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_kiZUU0POU2hcTKExWae8ZQXT",
+      "object": "thread.message",
+      "created_at": 1721652165,
+      "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+      "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+      "run_id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "The British Shorthair is a compact, well-balanced, and powerful breed, recognized for its short, very dense coat with a crisp texture. They have a round head with large, round eyes set wide apart, adding to their distinctive look. This breed is known for its calm and easygoing nature and can take 3-5 years to reach full maturity【4:0†source】.",
+            "annotations": [
+              {
+                "type": "file_citation",
+                "text": "【4:0†source】",
+                "start_index": 330,
+                "end_index": 342,
+                "file_citation": {
+                  "file_id": "file-ioIe0TRUdO9nrqExjCaaho2p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_tVAGVHampbYEXoY5slBh5xZx",
+      "object": "thread.message",
+      "created_at": 1721652161,
+      "assistant_id": null,
+      "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Tell me about British shorthair.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_kiZUU0POU2hcTKExWae8ZQXT",
+  "last_id": "msg_tVAGVHampbYEXoY5slBh5xZx",
+  "has_more": false
+}
+7/22/2024 3:42:48 PM: GetMessagesFromThread callback received.
+7/22/2024 3:42:48 PM: Received reply: The British Shorthair is a compact, well-balanced, and powerful breed, recognized for its short, very dense coat with a crisp texture. They have a round head with large, round eyes set wide apart, adding to their distinctive look. This breed is known for its calm and easygoing nature and can take 3-5 years to reach full maturity【4:0†source】.
+7/22/2024 3:42:48 PM: Get request successful: {
+  "id": "run_tFo0zuV5jJhdpWGmCv9LDtnu",
+  "object": "thread.run",
+  "created_at": 1721652162,
+  "assistant_id": "asst_JMQHQ3QurLt3a7na5ejE59w5",
+  "thread_id": "thread_FOLyAeKrloUuMqOdVyawTG9X",
+  "status": "completed",
+  "started_at": 1721652162,
+  "expires_at": null,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": 1721652166,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "You know all about cats. Brevity in Responses: Ensure that each response provided by the assistant is no longer than 2-3 sentences, focusing on delivering clear and concise information to keep the user engaged and facilitate easy understanding. Introduction: Greet the user warmly and introduce the assistant's purpose. Cat Breeds: Offer information on various cat breeds, including characteristics, personality traits, and care needs. Behavior and Body Language: Explain common cat behaviors and what they might mean, helping users understand their feline friends better. Discussion Prompts: Suggest topics for discussion to encourage users to share their own cat stories, experiences, and advice. Encouragement: Encourage users to continue learning and exploring the world of cats. Offer ongoing support for any further questions or guidance. Use file search function when asked about British shorthair. Do not use any special formatting in your responses. Your responses must be human-like in their nature.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": {
+    "prompt_tokens": 10926,
+    "completion_tokens": 97,
+    "total_tokens": 11023
+  },
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+7/22/2024 3:42:48 PM: Polling run status...
+7/22/2024 3:42:48 PM: Run status: completed
+7/22/2024 3:42:48 PM: Run completed. Fetching messages...

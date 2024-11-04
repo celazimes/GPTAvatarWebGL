@@ -161,4 +161,114 @@ public class OpenAITextCompletionManager : MonoBehaviour
             }
         }
     }
+
+        //ASSISTANT FUNCTIONALITY
+
+    public void CreateThread(string apiKey, Action<RTDB, JSONObject> callback)
+    {
+        //Logger.Log("Creating thread...");
+        StartCoroutine(PostRequest("https://api.openai.com/v1/threads", "{}", apiKey, callback));
+    }
+
+    public void AddMessageToThread(string threadId, string role, string content, string apiKey, Action<RTDB, JSONObject> callback)
+    {
+        string json = $@"{{
+            ""role"": ""{role}"",
+            ""content"": ""{SimpleJSON.JSONNode.Escape(content)}""
+        }}";
+        string url = $"https://api.openai.com/v1/threads/{threadId}/messages";
+        //Logger.Log($"Adding message to thread. URL: {url} Payload: {json}");
+        StartCoroutine(PostRequest(url, json, apiKey, callback));
+    }
+
+    public void CreateRun(string threadId, string assistantId, string instructions, string apiKey, Action<RTDB, JSONObject> callback)
+    {
+        string json = $@"{{
+            ""assistant_id"": ""{assistantId}"",
+            ""instructions"": ""{SimpleJSON.JSONNode.Escape(instructions)}""
+        }}";
+        string url = $"https://api.openai.com/v1/threads/{threadId}/runs";
+        //Logger.Log($"Creating run for thread. URL: {url} Payload: {json}");
+        StartCoroutine(PostRequest(url, json, apiKey, callback));
+    }
+
+    public void GetMessagesFromThread(string threadId, string apiKey, Action<RTDB, JSONObject> callback)
+    {
+        string url = $"https://api.openai.com/v1/threads/{threadId}/messages";
+        //Logger.Log($"Getting messages from thread. URL: {url}");
+        StartCoroutine(GetRequest(url, apiKey, callback));
+    }
+
+    private IEnumerator PostRequest(string url, string json, string apiKey, Action<RTDB, JSONObject> callback)
+    {
+        using (UnityWebRequest postRequest = new UnityWebRequest(url, "POST"))
+        {
+            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(json);
+            postRequest.uploadHandler = (UploadHandler)new UploadHandlerRaw(bodyRaw);
+            postRequest.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
+            postRequest.SetRequestHeader("Content-Type", "application/json");
+            postRequest.SetRequestHeader("Authorization", "Bearer " + apiKey);
+            postRequest.SetRequestHeader("OpenAI-Beta", "assistants=v2");
+
+            //Logger.Log("Sending POST request to: " + url);
+            //Logger.Log("Request payload: " + json);
+
+            yield return postRequest.SendWebRequest();
+
+            if (postRequest.result != UnityWebRequest.Result.Success)
+            {
+                //Logger.LogError("Post request error: " + postRequest.error);
+                //Logger.LogError("Post request response: " + postRequest.downloadHandler.text);
+                RTDB db = new RTDB();
+                db.Set("status", "failed");
+                db.Set("msg", postRequest.error);
+                callback.Invoke(db, null);
+            }
+            else
+            {
+                //Logger.Log("Post request successful: " + postRequest.downloadHandler.text);
+                JSONNode rootNode = JSON.Parse(postRequest.downloadHandler.text);
+                RTDB db = new RTDB();
+                db.Set("status", "success");
+                callback.Invoke(db, (JSONObject)rootNode);
+            }
+        }
+    }
+
+    private IEnumerator GetRequest(string url, string apiKey, Action<RTDB, JSONObject> callback)
+    {
+        using (UnityWebRequest getRequest = UnityWebRequest.Get(url))
+        {
+            getRequest.SetRequestHeader("Content-Type", "application/json");
+            getRequest.SetRequestHeader("Authorization", "Bearer " + apiKey);
+            getRequest.SetRequestHeader("OpenAI-Beta", "assistants=v2");
+            yield return getRequest.SendWebRequest();
+
+            if (getRequest.result != UnityWebRequest.Result.Success)
+            {
+                //Logger.LogError("Get request error: " + getRequest.error);
+                //Logger.LogError("Get request response: " + getRequest.downloadHandler.text);
+                RTDB db = new RTDB();
+                db.Set("status", "failed");
+                db.Set("msg", getRequest.error);
+                callback.Invoke(db, null);
+            }
+            else
+            {
+                //Logger.Log("Get request successful: " + getRequest.downloadHandler.text);
+                JSONNode rootNode = JSON.Parse(getRequest.downloadHandler.text);
+                RTDB db = new RTDB();
+                db.Set("status", "success");
+                callback.Invoke(db, (JSONObject)rootNode);
+            }
+        }
+    }
+
+    public void GetRunStatus(string threadId, string runId, string apiKey, Action<RTDB, JSONObject> callback)
+{
+    string url = $"https://api.openai.com/v1/threads/{threadId}/runs/{runId}";
+    //Logger.Log($"Getting run status. URL: {url}");
+    StartCoroutine(GetRequest(url, apiKey, callback));
+}
+
 }

@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.soupday.cc3_unity_tools": {
-      "version": "file:C:/Users/llm-dtec/dev/packages/cc_unity_tools_URP-1.4.7.URP12/cc_unity_tools_URP-1.4.7.URP12",
+      "version": "file:/Users/rudolfs/Desktop/cc_unity_tools_URP-1.4.7.URP12",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -88,6 +88,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "3.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.probuilder": {
       "version": "5.2.2",
       "depth": 0,
@@ -96,6 +105,15 @@
         "com.unity.settings-manager": "1.0.3",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.progrids": {
+      "version": "3.0.3-preview.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
       },
       "url": "https://packages.unity.com"
     },
